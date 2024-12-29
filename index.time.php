@@ -53,8 +53,17 @@ echo $hostname;
 <div class="containerBox">
   <img class="img-responsive" src="img/bee.jpg">
   <div class='text-box'>
+    <p class="countdown" id="timer">
+        <span id="timer-days"></span>
+        <span id="timer-hours"></span>
+        <span id="timer-mins"></span>
+        <span id="timer-secs"></span>
+    </p>
   </div>
 </div>
+    <div class="countdown">
+        <div id="timer"></div>
+    </div>
 
     <script>
         function updateCountdown() {
